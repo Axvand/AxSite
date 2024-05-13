@@ -1,0 +1,53 @@
+/*font-family: 'Glancyr-light';*/
+
+
+header{
+    /*border: 1px solid rgb(47, 255, 0);*/
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.infoHeaderConteiner{
+    /*border: 1px solid red;*/
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.headerInfo{
+
+   /* border: 1px solid rgb(17, 255, 0);*/
+   padding: 10px;
+}
+.NomeEmpresaHeader{
+    font-family: 'Glancyr-light';
+    font-weight: lighter;
+   /* border: 1px solid red;*/
+    margin: 0px;
+}
+.Palavra1header{
+    font-family: 'Glancyr-light';
+    font-weight: lighter;
+    font-size: 80px;
+    /*border: 1px solid red;*/
+    margin: 0px;
+    padding: 0px;
+}
+.complemento1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+   /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+/*-------------*/
+
+.logoHeaderConteiner{ 
+    width: 400px;
+}
+.logoheader{
+    animation: fadeIn;
+    animation-duration: 1s;
+}

@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'Glancyr';
+    src: url('fontsBaixadas/Glancyr/Glancyr-Regular.otf') format('truetype');
+    font-family: 'Glancyr-light';
+    src: url('fontsBaixadas/Glancyr/Glancyr-ExtraLight.otf') format('truetype');
+    /* Adicione formatos adicionais aqui se tiver arquivos em vários formatos */
+  }
+
+  *{
+    font-weight: lighter;
+    margin: 0;
+  }
+body{
+    background:black;
+}
+nav{
+    z-index: 1;
+    position:fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:rgb(5, 5, 5);
+}
+.conteinerLogo{
+    color:white;
+    font-size: small;
+    /*border: 1px solid rgb(47, 255, 0);*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    animation: fadeIn;
+    animation-duration: 0.7s;
+    
+}
+
+/*flip-up*/
+
+.logoname{
+    font-family:'Glancyr';
+    font-weight: lighter;
+}
+.conteinerOpcoes{
+
+}
+.conteinerOpcoes>a{
+    margin-left:30px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Glancyr-light';
+    font-weight: lighter;
+    transition: 0.3s;
+    padding-bottom: 40px;
+    animation: fadeIn;
+    animation-duration: 0.7s;
+}
+.conteinerOpcoes>a:hover{
+    margin-left:30px;
+    text-decoration: none;
+    color: rgb(0, 239, 36);
+    text-shadow: 1px;
+    transition: 1s;
+    z-index: 1;
+}
+
+/*-----------------------------*/
+
+
+
+@media (max-width: 768px) {
+    body{
+        background:white;
+    }
+  }
+

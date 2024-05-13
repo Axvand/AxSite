@@ -1,0 +1,118 @@
+/*font-family: 'Glancyr-light';*/
+
+main{
+    background-image: linear-gradient(180deg, black, rgb(20, 0, 26),rgb(41, 0, 44));
+}
+.textProblemMain{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textMain{
+    color: white;
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+/*-------------------------*/
+
+.titleMainConteiner{
+    height: 100px;
+    background-image: linear-gradient(45deg, transparent, rgb(77, 0, 128),transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleMain{
+    color: white;
+    font-family: 'Glancyr-light';
+    font-weight: lighter;
+    font-size: 30px;
+    animation: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+/*-----------------*/
+.cardsKaser{
+    /*border: 1px solid rgb(255, 0, 0);*/
+    display: flex;
+    justify-content: space-around;
+}
+.ulCards{
+    columns: 2;
+    margin-right: 70px;
+}
+.cards{
+    padding-top: 30px;
+    color: aliceblue;
+    /*border: 1px solid rgb(17, 255, 0);*/
+    height: 200px;
+    max-width:550px;
+    display: flex;
+    justify-content: space-between;
+}
+.textCardContainer{
+    /*border: 1px solid rgb(242, 255, 0);*/
+    text-align: center;
+}
+.titleCard{
+    font-family: 'Glancyr-light';
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 8px;
+    line-height: 30px;
+}
+.infoCard{
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*====================*/
+
+.OutrosConteiner{
+    background-color: black;
+}
+
+
+
+/*====================*/
+
+.lastSection{
+
+}
+.titleMainConteiner{
+}
+.logomarcaLast{
+    display: flex;
+    justify-content: center;
+}
+.conteinerText{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.textMain{
+    text-align: center;
+}
+
+.Whatsapp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    position: fixed;
+    bottom:40px;
+    right:20px;
+    height: 80px;
+    width: 100px;
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
