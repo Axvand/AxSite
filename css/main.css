@@ -174,7 +174,6 @@ main{
 
     .cardsContainer{
         /*display: none;*/
-        border: 1px solid red;
         padding-left: 10px;
 
     }
@@ -183,11 +182,11 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid red;
+
     }
     .imgCard{
         margin-bottom: 5px;
-        border: 1px solid red;
+
         height: 105px;
         width: 125px;
         display: flex;
@@ -195,7 +194,7 @@ main{
     }
     .imgCard2{
         margin-bottom: 5px;
-        border: 1px solid red;
+
         height: 115px;
         width: 125px;
         display: flex;
