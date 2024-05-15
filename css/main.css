@@ -124,3 +124,25 @@ main{
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+
+@media (max-width: 800px) {
+
+
+
+    .titleMain{
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+
+    .textProblemMain{
+        padding: 15px;
+    }
+    .conteinerText{
+        padding: 15px;
+        font-size: 15px;
+    }
+}
