@@ -56,7 +56,7 @@ header{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
 
 
 
@@ -68,6 +68,9 @@ header{
     }
 
     .infoHeaderConteiner{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
     }
 
 

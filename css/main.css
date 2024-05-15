@@ -57,8 +57,8 @@ main{
     justify-content: space-between;
 }
 .imgCard{
-    height: 100px;
-    width: 120px;
+    height: 200px;
+    width: 220px;
 }
 
 .imgCard{
@@ -130,7 +130,7 @@ main{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
 
 
 
@@ -180,6 +180,8 @@ main{
     }
     .imgCard{
         margin-bottom: 5px;
+        height: 100px;
+        width: 120px;
     }
     .infoCard{
         font-family: Arial, Helvetica, sans-serif;
