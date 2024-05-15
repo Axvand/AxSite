@@ -85,7 +85,7 @@ header{
         height: 300px;
     }
     .logoHeaderConteiner{
-        width: 100%;
+        width: 99.7%;
         display: flex;
         justify-content: center;
     }
