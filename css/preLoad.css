@@ -1,0 +1,23 @@
+
+.conteinerPreLoad{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.areaPreLoad{
+    height: 300px;
+    width: 300px;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+.frase{
+    color: rgb(214, 214, 214);
+    animation: fadeIn;
+    animation-duration: 4s;
+    font-family: 'Glancyr';
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing:4px;
+}
