@@ -89,6 +89,8 @@ main{
 /*====================*/
 
 .lastSection{
+    background-image: url(imgsCardsMain/ax\ fundo.png);
+    background-size: cover;
 
 }
 .titleMainConteiner{
