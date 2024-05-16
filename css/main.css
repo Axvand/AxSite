@@ -129,7 +129,7 @@ main{
     height: 80px;
     width: 100px;
     animation: pulse;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
     animation-iteration-count: infinite;
 }
 
