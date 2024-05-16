@@ -13,11 +13,9 @@
   }
   .site{
     margin: 0px;
-    
   }
 body{
     background:black;
-
 }
 nav{
     z-index: 1;
@@ -37,15 +35,12 @@ nav{
     align-items: center;
     animation: fadeIn;
     animation-duration: 0.7s;
-    
 }
 
 .conteinerNav2{
     display: none;
 }
-
 /*flip-up*/
-
 .logoname{
     font-family:'Glancyr';
     font-weight: lighter;
@@ -76,8 +71,6 @@ nav{
 
 /*-----------------------------*/
 
-
-
 @media (max-width: 860px) {
     body{
         background:rgb(0, 0, 0);
@@ -93,11 +86,20 @@ nav{
     }
 
     .conteinerOpcoes{
-        display: none;
+        display: block;
+        margin-right: 10px;
+
+    }
+    .conteinerOpcoes>a{
+        animation: fade;
+        animation-duration: 19s;
+        font-size: 14px;
+        margin-left:0px;
+        margin-right:7px;
     }
      /*---ssssssss----*/ 
     .conteinerNav2{
-        display: block;
+        display: none;
         margin-right: 30px;
     }
 
