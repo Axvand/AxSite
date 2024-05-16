@@ -11,6 +11,10 @@
     font-weight: lighter;
     margin: 0;
   }
+  .site{
+    margin: 0px;
+    
+  }
 body{
     background:black;
 
@@ -98,4 +102,3 @@ nav{
     }
 
   }
-
