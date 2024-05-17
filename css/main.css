@@ -125,7 +125,7 @@ main{
     z-index: 1;
     position: fixed;
     bottom:40px;
-    right:20px;
+    right:15px;
     height: 80px;
     width: 100px;
     animation: pulse;
