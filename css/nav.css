@@ -59,7 +59,6 @@ nav{
     padding-bottom: 40px;
 }
 .conteinerOpcoes>a:hover{
-    margin-left:3px;
     text-decoration: none;
     color: rgb(0, 239, 36);
     text-shadow: 1px;
