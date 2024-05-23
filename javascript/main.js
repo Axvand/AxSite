@@ -21,16 +21,14 @@ preLoad()
 const button = document.querySelector('.conteinerNav2')
 const optionsNav = document.querySelector('.conteinerOpcoes')
 button.addEventListener('click',()=>{
-    button.style.animation='bounceOut'
-    button.style.animationDuration='2s'
     setTimeout(() => {
         button.style.display='none'
-        setTimeout(() => {
+       
 //===================
-        optionsNav.style.animation='bounceIn'
+        optionsNav.style.animation='fadeInRight'
         optionsNav.style.animationDuration='1s'
         optionsNav.style.display='block'
-        }, 200);
-    }, 1500);
+        
+    }, 200);
 })
 
