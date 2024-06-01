@@ -1,0 +1,234 @@
+
+
+.produtos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardProd{
+    width: 550px;
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 20px;
+    color: rgb(230, 230, 230);
+}
+.conteinerImgInfoProd{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgProd{
+    height: 200px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.infoProd{
+    height: 200px;
+    color: rgb(206, 206, 206);
+    font-family: 'Glancyr-light';
+    font-size: 19px;
+}
+.titleProd{
+    text-align: center;
+    
+}
+.listInfor{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listInfor>li{
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.sizeProd{
+    height: 40px;
+    width: 500px;   
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sizes{
+    display: flex;
+    justify-content: center;
+}
+
+.sizeInfoProd{
+    font-size: 15px;
+    text-align: center;
+}
+
+.optionsSize{
+    font-family: 'Glancyr-light';
+    border: 1px solid rgb(30, 30, 30);
+    padding: 2px 6px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    transition: 0.4s;
+    color: rgb(183, 182, 182);
+    
+}
+.optionsSize:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 8px rgb(0, 217, 255);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.valor{
+    text-align: end;
+}
+.valorNumber{
+    color: green;
+}
+
+.qtdProd{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.conteinerQtd{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    align-items: center;
+    width: 70%;
+
+}
+.QtdInfoProd{
+    margin-left: 13px;
+
+}
+.optionsQtd{
+    border: 1px solid rgb(26, 26, 26);
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: rgb(183, 182, 182);
+}
+.optionsQtd:hover{
+    color: rgba(234, 234, 234, 0.897);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 8px rgb(0, 217, 255);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.whatsapp{
+    margin-right: 20px;
+}
+.whatsapp>img{
+    height: 35px;
+}
+.whatsapp>img:hover{
+    cursor: pointer;
+    height: 35px;
+}
+
+
+
+@media (max-width: 860px) {
+    .produtos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardProd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .conteinerImgInfoProd{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgProd{
+        
+    }
+    .infoProd{
+       
+    }
+    .titleProd{
+       
+        text-align:center;
+    }
+    .listInfor{
+        
+    }
+    .listInfor>li{
+       
+    }
+    .sizeProd{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 330px;   
+        padding:13px;
+    }
+    .sizes{
+       
+    }
+    
+    .sizeInfoProd{
+        
+    }
+    
+    .optionsSize{
+        
+    }
+    .optionsSize:hover{
+       
+    }
+    
+    .valor{
+        
+    }
+    .valorNumber{
+        
+    }
+    
+    .qtdProd{
+        height: 80px;
+        display: flex;
+        
+    }
+    
+    .conteinerQtd{
+        display: flex;
+        justify-content: space-around;
+        width: 330px;
+        
+    }
+    .QtdInfoProd{
+        
+    }
+    .optionsQtd{
+       
+    }
+    .optionsQtd:hover{
+        
+    }
+    .whatsapp{
+        display: none;
+        
+    }
+    .whatsapp>img{
+        
+    }
+  
+    
+}

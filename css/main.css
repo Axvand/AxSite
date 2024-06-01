@@ -130,6 +130,7 @@ main{
     animation: pulse;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
+    filter: drop-shadow(0.3px 0px 3px rgb(114, 0, 162));
 }
 .logonam{
     font-family:'Glancyr';
@@ -222,11 +223,10 @@ main{
         animation-iteration-count: infinite;
         padding: 5px;
         border-radius: 20px;
-        background: black;
-        filter: drop-shadow(0.3px 0px 3px rgb(114, 0, 162));
 
     }
     .whatsappImg{
         height: 200px;
+        filter: drop-shadow(0.3px 0px 3px rgb(114, 0, 162));
     }
 }
