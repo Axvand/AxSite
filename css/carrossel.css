@@ -1,0 +1,16 @@
+#carouselExampleRide{
+    display: none;
+  }
+#carouselExampleInterval{
+    display: block;
+}
+
+@media (max-width: 860px) {
+#carouselExampleRide{
+    display: block;
+
+  }
+#carouselExampleInterval{
+    display: none;
+}
+}
