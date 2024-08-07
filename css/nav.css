@@ -35,6 +35,8 @@ nav{
     align-items: center;
     animation: fadeIn;
     animation-duration: 0.7s;
+     font-family:'Glancyr';
+    font-weight: lighter;
 }
 
 .conteinerNav2{
