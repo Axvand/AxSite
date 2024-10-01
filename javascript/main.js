@@ -11,7 +11,7 @@ function preLoad(){
         site.style.animationDuration='1s'
         site.style.display='block'
         preloadContent.remove()
-    }, 2000);
+    }, 3000);
 }
 
 preLoad()
