@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+.header {
+  margin-top: 110px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.propagandaConteiner {
+  height: 450px;
+  width: 49%;
+  border-radius: 10px;
+}
+/*-------------------------*/
+.propagandaConteiner1 {
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  padding: 5px;
+}
+.rotuloPromoConteiner {
+  height: 190px;
+  width: 200;
+  border-radius: 10px;
+}
+.rotuloPromo {
+  color: rgb(223, 223, 223);
+  font-size: 39px;
+  font-family: "Sora", serif;
+  font-weight: normal;
+  padding: 15px;
+}
+.buttonPromoConteiner {
+  height: 100px;
+  width: 190;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.botton {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  background: rgb(22, 22, 22);
+}
+.botton:hover {
+  background: rgb(0, 153, 255);
+  cursor: pointer;
+}
+
+/*-------------------------*/
+.propagandaConteiner2 {
+  background: rgb(14, 14, 14);
+  background-image: url("https://media4.giphy.com/media/26tn2q3F0oLQlZZGU/giphy.gif?cid=6c09b95219kqm6xiz5tw8ueu3je1p16gswhksyazxolnif2v&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
+}
+/*-------------------------*/
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .propagandaConteiner {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .rotuloPromo {
+    color: rgb(223, 223, 223);
+    font-size: 30px;
+    font-family: "Sora", serif;
+  }
+}

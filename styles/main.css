@@ -1,0 +1,78 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.navMain {
+  width: 99%;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.option {
+  height: 190px;
+  width: 300px;
+  border-radius: 10px;
+  background: rgb(14, 14, 14);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option:hover {
+  transition: 0.3s;
+  background: rgb(0, 153, 255);
+  cursor: pointer;
+}
+
+.optionTextConteiner {
+  height: 90px;
+  width: 280px;
+  text-align: center;
+  font-family: "Sora", serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+}
+.tituloCard {
+  margin-top: 20px;
+  color: white;
+  font-family: "Sora", serif;
+  font-weight: lighter;
+}
+.cardsConteiner {
+  border-radius: 10px;
+  width: 99%;
+  background: rgb(7, 7, 7);
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 290px;
+  width: 200px;
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .navMain {
+    flex-direction: column;
+  }
+  .option {
+    width: 95%;
+  }
+}
