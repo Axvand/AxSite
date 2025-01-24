@@ -61,11 +61,12 @@
 .card {
   height: 290px;
   width: 200px;
-  border: 1px solid rgb(34, 34, 34);
+  border: 1px solid rgb(22, 22, 22);
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 30px;
+  background: rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
