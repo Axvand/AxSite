@@ -61,14 +61,26 @@
 .card {
   height: 290px;
   width: 200px;
-  border: 1px solid rgb(22, 22, 22);
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 30px;
-  background: rgb(0, 0, 0);
+  background-image: linear-gradient(to top, black, rgb(36, 36, 36));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 10px;
 }
+.fotoConteiner {
+  border-radius: 10px 10px 0px 0px;
+  height: 160px;
+  width: 190px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 600px) {
   .navMain {
     flex-direction: column;
