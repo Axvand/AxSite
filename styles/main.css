@@ -58,6 +58,18 @@
   flex-wrap: wrap;
 }
 
+/*---------Ajuste--------*/
+
+.cardsConteiner1 {
+  display: none;
+}
+.cardsConteiner2 {
+  display: none;
+}
+.cardsConteiner3 {
+  display: none;
+}
+
 .card {
   height: 290px;
   width: 200px;
