@@ -25,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .option:hover {
@@ -77,7 +78,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 30px;
-  background-image: linear-gradient(to top, rgb(7, 7, 7), rgb(36, 36, 36));
+  background-image: linear-gradient(to top, rgb(17, 17, 17), rgb(36, 36, 36));
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -100,7 +101,7 @@
   text-align: center;
 }
 .tamanho {
-  color: red;
+  color: rgb(59, 253, 0);
 }
 @media (max-width: 600px) {
   .navMain {
