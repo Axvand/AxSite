@@ -49,6 +49,7 @@ export default function NavCards() {
         cardsConteiner[x].style.display = "none";
       }
     }
+    //////////////////////////////////
     //Controle de titulo:
     tituloCard.innerHTML = "Windbanners e Cavaletes";
 
