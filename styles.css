@@ -1,0 +1,492 @@
+:root {
+  --yellow: #ffe600;
+  --pink: #ff1e6c;
+  --purple: #a742ff;
+  --blue: #18b2de;
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --gray: #9ca3af;
+  --dark-bg: #121212;
+  --card-bg: rgba(255, 255, 255, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+/* Header e Navegação */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.logo img {
+  height: 30px;
+  max-width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.3rem 0;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--blue), var(--purple));
+  transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: var(--white);
+  transition: all 0.3s;
+}
+
+/* Carrossel */
+.carousel {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 600px;
+  position: relative;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  bottom: 50%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  background: linear-gradient(
+    135deg,
+    rgba(24, 178, 222, 0.1),
+    rgba(167, 66, 255, 0.1)
+  );
+  position: relative;
+  width: 100%;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: var(--gray);
+}
+
+/* Seções de Serviço */
+.service-section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: var(--dark-bg);
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  width: 100%;
+}
+
+.service-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  direction: rtl;
+}
+
+.service-intro-text {
+  direction: ltr;
+}
+
+.service-intro-text h3 {
+  color: var(--blue);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.service-intro-text p {
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.service-intro-image {
+  direction: ltr;
+}
+
+.service-intro-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  direction: ltr;
+}
+
+.service-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--blue);
+}
+
+.service-card i {
+  font-size: 2.5rem;
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  color: var(--gray);
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-bg);
+  padding: 3rem 2rem 1rem;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 100px;
+  max-width: 100%;
+}
+
+.footer-contact,
+.footer-social {
+  text-align: center;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+
+.footer-contact p {
+  margin-bottom: 0.5rem;
+  color: var(--gray);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  color: var(--gray);
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--blue);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--gray);
+}
+
+/* WhatsApp Float Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.whatsapp-float a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float a i {
+  font-size: 30px;
+}
+
+.whatsapp-float a:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 15px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-float a {
+  animation: pulse 2s infinite;
+}
+
+/* Animações */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, var(--purple), var(--pink));
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 1.2rem 2rem;
+    color: var(--white);
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-links a:hover {
+    background: var(--yellow);
+    color: var(--black);
+  }
+
+  .nav-links a::after {
+    display: none;
+  }
+
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+  .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-caption {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.8rem;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  .service-intro {
+    direction: ltr;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .service-intro-text,
+  .service-intro-image {
+    direction: ltr;
+  }
+
+  .service-intro-image img {
+    height: 250px;
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-float a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .whatsapp-float a i {
+    font-size: 25px;
+  }
+
+  .service-section {
+    padding: 3rem 1rem;
+    margin: 1rem auto;
+  }
+
+  nav {
+    height: 45px;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .logo img {
+    height: 25px;
+  }
+}
