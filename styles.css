@@ -538,11 +538,11 @@ footer {
   padding: 20px;
   width: 280px; /* Largura reduzida */
   text-align: center;
-  height: 400px;
+  height: 450px;
   color: white;
 }
 .image-placeholder {
-  background: #eaeaea;
+  background: #727272;
   height: 150px;
   border-radius: 8px;
   margin-bottom: 15px;
