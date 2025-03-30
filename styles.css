@@ -41,11 +41,11 @@ nav {
   padding: 0.5rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
-  height: 50px;
+  height: 70px;
 }
 
 .logo img {
-  height: 30px;
+  height: 50px;
   max-width: 100%;
 }
 
@@ -99,13 +99,13 @@ nav {
 
 /* Carrossel */
 .carousel {
-  margin-top: 50px;
+  margin-top: 70px;
   position: relative;
   width: 100%;
 }
 
 .carousel-item {
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 
@@ -132,7 +132,8 @@ nav {
 .carousel-caption h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--blue), var(--purple));
+  /* background: linear-gradient(135deg, var(--blue), var(--purple)); */
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -140,7 +141,7 @@ nav {
 /* Hero Section */
 #hero {
   text-align: center;
-  padding: 2rem 2rem 4rem;
+  padding: 2rem 2rem 2rem;
   position: relative;
   width: 100%;
 }
