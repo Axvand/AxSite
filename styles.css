@@ -140,12 +140,7 @@ nav {
 /* Hero Section */
 #hero {
   text-align: center;
-  padding: 6rem 2rem 4rem;
-  background: linear-gradient(
-    135deg,
-    rgba(24, 178, 222, 0.1),
-    rgba(167, 66, 255, 0.1)
-  );
+  padding: 2rem 2rem 4rem;
   position: relative;
   width: 100%;
 }
@@ -162,6 +157,10 @@ nav {
   font-size: 1.2rem;
   color: var(--gray);
 }
+
+/*======================================*/
+
+/*======================================*/
 
 /* Seções de Serviço */
 .service-section {
@@ -491,17 +490,23 @@ footer {
   }
 }
 
+/* ====================================================================== */
 /* Seção de Produtos com Scroll Horizontal */
 .products-section {
   padding: 4rem 2rem;
   background: var(--dark-bg);
   margin: 2rem auto;
+  background: linear-gradient(
+    135deg,
+    rgba(24, 178, 222, 0.1),
+    rgba(167, 66, 255, 0.1)
+  );
 }
 
 .products-section h2 {
   text-align: center;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   background: linear-gradient(135deg, var(--blue), var(--purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -532,7 +537,7 @@ footer {
 }
 
 .card {
-  background: rgb(51, 51, 51);
+  background: rgb(10, 10, 10);
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -564,9 +569,6 @@ button {
   cursor: pointer;
   width: 100%;
 }
-button:hover {
-  background-color: #218838;
-}
 
 @media (max-width: 768px) {
   .product-card {
@@ -576,4 +578,15 @@ button:hover {
   .product-card img {
     height: 180px;
   }
+}
+
+/*scroll bar config style*/
+
+/* Estilizando a scrollbar */
+.grand-container::-webkit-scrollbar {
+  width: 8px; /* Largura da scrollbar */
+}
+.grand-container::-webkit-scrollbar-thumb {
+  background: #636363; /* Cor do "polegar" da scrollbar */
+  border-radius: 4px; /* Bordas arredondadas */
 }
