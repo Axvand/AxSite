@@ -37,7 +37,11 @@
     </header>
 
     <!-- Carrossel Bootstrap -->
-    <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div
+      id="headerCarousel"
+      class="carousel slide carousel1"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-indicators">
         <button
           type="button"
@@ -63,21 +67,26 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="./imgs/placeholder 1.png"
+            src="./imgs/placeholder 2.png"
             class="d-block w-100"
-            alt="Desenvolvimento Web"
+            alt="Design Gráfico"
+            id="img2"
           />
-          <div class="carousel-caption">
+
+          <!-- <div class="carousel-caption">
             <h2>Desenvolvimento Web Profissional</h2>
             <p>Soluções personalizadas para seu negócio</p>
-          </div>
+          </div> -->
         </div>
+
         <div class="carousel-item">
           <img
             src="./imgs/placeholder 2.png"
             class="d-block w-100"
             alt="Design Gráfico"
+            id="img2"
           />
+
           <!-- <div class="carousel-caption">
             <h2>Design Gráfico Criativo</h2>
             <p>Identidade visual que se destaca</p>
@@ -114,6 +123,93 @@
         <span class="visually-hidden">Próximo</span>
       </button>
     </div>
+
+    <!-- //====================================================================================== -->
+
+    <div
+      id="headerCarousel"
+      class="carousel slide carousel2"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#headerCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headerCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headerCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./imgs/placeholder 2 mobile.png"
+            class="d-block w-100"
+            alt="Design Gráfico"
+            id="img2"
+          />
+
+          <!-- <div class="carousel-caption">
+            <h2>Desenvolvimento Web Profissional</h2>
+            <p>Soluções personalizadas para seu negócio</p>
+          </div> -->
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./imgs/placeholder 2 mobile.png"
+            class="d-block w-100"
+            alt="Design Gráfico"
+            id="img2"
+          />
+
+          <!-- <div class="carousel-caption">
+            <h2>Design Gráfico Criativo</h2>
+            <p>Identidade visual que se destaca</p>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./imgs/placeholder 2 mobile.png"
+            class="d-block w-100"
+            alt="Marketing Digital"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#headerCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#headerCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <!-- //====================================================================================== -->
 
     <main>
       <section id="hero">

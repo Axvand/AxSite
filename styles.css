@@ -163,6 +163,15 @@ nav {
 
 /*======================================*/
 
+.carousel2 {
+  display: none;
+}
+
+.carousel1 {
+  display: block;
+}
+/*======================================*/
+
 /* Seções de Serviço */
 .service-section {
   padding: 5rem 2rem;
@@ -578,6 +587,21 @@ button {
 
   .product-card img {
     height: 180px;
+  }
+  #img1 {
+    display: none;
+  }
+
+  #img2 {
+    display: block;
+  }
+
+  .carousel2 {
+    display: block;
+  }
+
+  .carousel1 {
+    display: none;
   }
 }
 
