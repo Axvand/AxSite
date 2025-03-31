@@ -474,6 +474,9 @@ footer {
   .whatsapp-float {
     bottom: 20px;
     right: 20px;
+    animation: Fadin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
   }
 
   .whatsapp-float a {
@@ -503,7 +506,7 @@ footer {
 /* ====================================================================== */
 /* Seção de Produtos com Scroll Horizontal */
 .products-section {
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: var(--dark-bg);
   margin: 0.5rem auto;
   background: linear-gradient(
@@ -515,8 +518,8 @@ footer {
 
 .products-section h2 {
   text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
   background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -528,12 +531,13 @@ footer {
   margin: 0 auto;
   overflow-x: scroll;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .cards-container {
   display: flex;
-  gap: 2rem;
-  padding: 1rem;
+  gap: 1.5rem;
+  padding: 0.5rem;
   overflow-x: auto;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -547,24 +551,31 @@ footer {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.315);
+  background: linear-gradient(
+    135deg,
+    rgba(236, 236, 236, 0.596),
+    rgba(167, 66, 255, 0.253)
+  );
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 280px; /* Largura reduzida */
+  padding: 10px;
+  width: 200px; /* Largura reduzida */
   text-align: center;
-  height: 400px;
+  height: 300px;
   color: white;
 }
-.card h2 {
-  font-size: 1.7em;
+.card h3 {
+  font-size: 1.2em;
   color: white;
+}
+.card p {
+  font-size: 0.8em;
 }
 .image-placeholder {
-  background: #727272;
+  background: #ffffff;
   height: 150px;
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 select {
   width: 100%;
@@ -574,14 +585,14 @@ select {
   border-radius: 4px;
   height: 40px;
 }
-button {
+.card button {
   background-color: #28a745;
   color: white;
   border: none;
-  padding: 10px;
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+  height: 40px;
 }
 
 @media (max-width: 768px) {
