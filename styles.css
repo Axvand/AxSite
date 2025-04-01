@@ -565,27 +565,28 @@ footer {
   color: white;
 }
 .card h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
 }
 .card p {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .image-placeholder {
   background: #ffffff;
   height: 150px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 select {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  height: 40px;
+  height: 30px;
+  font-size: 0.6em;
 }
-.card button {
+.card a {
   background-color: #28a745;
   color: white;
   border: none;
