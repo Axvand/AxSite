@@ -1,6 +1,3 @@
-function LogicaDeProdutos(){
-    return;
-}
+function LogicaDeProdutos() {}
 
-export default LogicaDeProdutos
-
+export default LogicaDeProdutos;
