@@ -20,8 +20,9 @@ function LogicaDeProdutos() {
 
   let select = document.querySelectorAll(".select"); // Para ativar a função "change"
 
-  //criação de cardes, Setando e atualizando valores
+  //criação de cardes, Setando e atualizando valores dos produtos:
   function LogProd(dadosPanfletos, dadosWindbanners) {
+    // Panfletos:
     for (let x = 0; x < dadosPanfletos.length; x++) {
       const card = document.createElement("div");
       cardsConteiner[0].appendChild(card);
@@ -30,8 +31,7 @@ function LogicaDeProdutos() {
         <div class="image-placeholder">Imagem</div>
         <h3>${dadosPanfletos[x].nome}</h3>
         <p>
-          Descrição do produto vai aqui. Uma breve descrição sobre o que é
-          e suas características.
+        ${dadosPanfletos[x].descrição}
         </p>
         <select class="select">
           <option value="100">Unidade: ${dadosPanfletos[x].unidade_1}</option>
@@ -56,7 +56,7 @@ function LogicaDeProdutos() {
     for (let x = 0; x < valor.length; x++) {
       select[x].addEventListener("change", () => {
         //chamada do "select"
-        valor[x].innerHTML = select[x].value * dados[x].multiplicador;
+        valor[x].innerHTML = select[x].value * dadosPanfletos[x].multiplicador;
       });
     }
   }
