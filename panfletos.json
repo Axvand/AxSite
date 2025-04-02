@@ -1,29 +1,34 @@
-[
-  {
-    "nome": "PANFLETOS SÓ FRENTE COUCHÊ 150G SEM VERNIZ",
-    "tamanho": "100x150mm",
-    "unidade_1": 100,
-    "unidade_2": 200,
-    "unidade_3": 300,
-    "unidade_4": 400,
-    "multiplicador": 0.7
-  },
-  {
-    "nome": "PANFLETOS FRENTE E VERSO CINZA, COUCHÊ 150G SEM VERNIZ",
-    "tamanho": "100x150mm",
-    "unidade_1": 100,
-    "unidade_2": 200,
-    "unidade_3": 300,
-    "unidade_4": 400,
-    "multiplicador": 0.85
-  },
-  {
-    "nome": "PANFLETOS FRENTE E VERSO CINZA, COUCHÊ 150G SEM VERNIZ",
-    "tamanho": "100x150mm",
-    "unidade_1": 100,
-    "unidade_2": 200,
-    "unidade_3": 300,
-    "unidade_4": 400,
-    "multiplicador": 0.95
-  }
-]
+{
+  "panfletos": [
+    {
+      "nome": "PANFLETOS SÓ FRENTE COUCHÊ 150G SEM VERNIZ",
+      "tamanho": "100x150mm",
+      "unidade_1": 100,
+      "unidade_2": 200,
+      "unidade_3": 300,
+      "unidade_4": 400,
+      "multiplicador": 0.7,
+      "valor_inicial": 70.0
+    },
+    {
+      "nome": "PANFLETOS FRENTE E VERSO CINZA, COUCHÊ 150G SEM VERNIZ",
+      "tamanho": "100x150mm",
+      "unidade_1": 100,
+      "unidade_2": 200,
+      "unidade_3": 300,
+      "unidade_4": 400,
+      "multiplicador": 0.85,
+      "valor_inicial": 85.0
+    },
+    {
+      "nome": "PANFLETOS FRENTE E VERSO CINZA, COUCHÊ 150G SEM VERNIZ",
+      "tamanho": "100x150mm",
+      "unidade_1": 100,
+      "unidade_2": 200,
+      "unidade_3": 300,
+      "unidade_4": 400,
+      "multiplicador": 0.95,
+      "valor_inicial": 95.0
+    }
+  ]
+}
