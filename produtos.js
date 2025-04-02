@@ -46,6 +46,30 @@ function LogicaDeProdutos() {
           >Comprar R$<span class="valor">${dadosPanfletos[x].valor_inicial}</span></a>
       </div> `;
     }
+    // Windbanners:
+    for (let x = 0; x < dadosPanfletos.length; x++) {
+      const card = document.createElement("div");
+      cardsConteiner[1].appendChild(card);
+      card.innerHTML = `
+      <div class="card">
+        <div class="image-placeholder">Imagem</div>
+        <h3>${dadosPanfletos[x].nome}</h3>
+        <p>
+        ${dadosPanfletos[x].descrição}
+        </p>
+        <select class="select">
+          <option value="100">Unidade: ${dadosPanfletos[x].unidade_1}</option>
+          <option value="200">Unidade: ${dadosPanfletos[x].unidade_2}</option>
+          <option value="300">Unidade: ${dadosPanfletos[x].unidade_3}</option>
+          <option value="400">Unidade: ${dadosPanfletos[x].unidade_4}</option>
+        </select>
+        <a
+          href="https://wa.me/5500000000000"
+          target="_blank"
+          style="text-decoration: none"
+          >Comprar R$<span class="valor">${dadosPanfletos[x].valor_inicial}</span></a>
+      </div> `;
+    }
 
     //AMANHÃ CONTINUAMOS DAQUI!
 
@@ -64,25 +88,3 @@ function LogicaDeProdutos() {
 }
 
 export default LogicaDeProdutos;
-
-// document.querySelector(".cards-container").innerHTML = `
-// <div class="card">
-//   <div class="image-placeholder">Imagem</div>
-//   <h3>Nome do Produto</h3>
-//   <p>
-//     Descrição do produto vai aqui. Uma breve descrição sobre o que é
-//     e suas características.
-//   </p>
-//   <select class="select">
-//     <option value="100">Unidade 100</option>
-//     <option value="200">Unidade 200</option>
-//     <option value="300">Unidade 300</option>
-//     <option value="400">Unidade 400</option>
-//   </select>
-//   <a
-//     href="https://wa.me/5500000000000"
-//     target="_blank"
-//     style="text-decoration: none"
-//     >Comprar R$<span class="valor">70,00</span></a
-//   >
-// </div> `;
