@@ -1,8 +1,8 @@
 {
   "panfletos": [
     {
-      "nome": "PANFLETOS: SÓ FRENTE",
-      "descrição": "100x150mm, SEM VERNIZ, COUCHÊ 150G",
+      "nome": "PANFLETOS 1 : SÓ FRENTE",
+      "descrição": "TAMANHO: 100x150mm <br> SEM VERNIZ, COUCHÊ 150G",
       "tamanho": "100x150mm",
       "unidade_1": 100,
       "unidade_2": 200,
@@ -12,8 +12,8 @@
       "valor_inicial": 70.0
     },
     {
-      "nome": "PANFLETOS: FRENTE E VERSO CINZA",
-      "descrição": "100x150mm, SEM VERNIZ, COUCHÊ 150G",
+      "nome": "PANFLETOS 1: FRENTE E VERSO CINZA",
+      "descrição": "TAMANHO: 100x150mm <br> SEM VERNIZ, COUCHÊ 150G",
       "tamanho": "100x150mm",
       "unidade_1": 100,
       "unidade_2": 200,
@@ -23,8 +23,8 @@
       "valor_inicial": 85.0
     },
     {
-      "nome": "PANFLETOS: FRENTE E VERSO",
-      "descrição": "100x150mm, SEM VERNIZ, COUCHÊ 150G",
+      "nome": "PANFLETOS 1: FRENTE E VERSO",
+      "descrição": "TAMANHO: 100x150mm <br> SEM VERNIZ, COUCHÊ 150G",
       "tamanho": "100x150mm",
       "unidade_1": 100,
       "unidade_2": 200,
@@ -34,15 +34,38 @@
       "valor_inicial": 95.0
     },
     {
-      "nome": "PANFLETOS: FRENTE E VERSO",
-      "descrição": "100x150mm, SEM VERNIZ, COUCHÊ 150G",
-      "tamanho": "100x150mm",
+      "nome": "PANFLETOS 2: SÓ FRENTE",
+      "descrição": "TAMANHO: 150x200mm <br> SEM VERNIZ, COUCHÊ 150G",
+      "tamanho": "150x200mm",
       "unidade_1": 100,
       "unidade_2": 200,
       "unidade_3": 300,
       "unidade_4": 400,
       "multiplicador": 0.95,
-      "valor_inicial": 95.0
+      "valor_inicial": 105.0
+    },
+    {
+      "nome": "PANFLETOS 2: FRENTE E VERSO CINZA",
+      "descrição": "TAMANHO: 150x200mm <br> SEM VERNIZ, COUCHÊ 150G",
+      "tamanho": "150x200mm",
+      "unidade_1": 100,
+      "unidade_2": 200,
+      "unidade_3": 300,
+      "unidade_4": 400,
+      "multiplicador": 0.95,
+      "valor_inicial": 115.0
+    },
+    {
+      "nome": "PANFLETOS 2: FRENTE E VERSO",
+      "descrição": "TAMANHO: 150x200mm <br> SEM VERNIZ, COUCHÊ 150G",
+      "tamanho": "150x200mm",
+      "unidade_1": 100,
+      "unidade_2": 200,
+      "unidade_3": 300,
+      "unidade_4": 400,
+      "multiplicador": 0.95,
+      "valor_inicial": 140.0
     }
-  ]
+  ],
+  "windbanners": [{}]
 }
