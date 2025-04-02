@@ -47,6 +47,8 @@ function LogicaDeProdutos() {
       </div> `;
     }
 
+    //AMANHÃ CONTINUAMOS DAQUI!
+
     //Independente de qualquer merda isso vai funcionar!
     let valor = document.querySelectorAll(".valor");
     let select = document.querySelectorAll(".select");
